@@ -1,0 +1,18 @@
+
+/*
+
+function dude(name,age){
+    console.log("Wassup "+name+". You are "+age+" years old.");
+}
+
+dude("joe",24);
+dude("Frank",45);
+dude("steve",27);
+
+*/
+
+function handleClick(element){
+    console.log("Test on the console.");
+    element.innerHTML="Clicked"
+    
+}
