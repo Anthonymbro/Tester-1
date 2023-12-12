@@ -1,33 +1,42 @@
-body {
-    margin: 10px solid blue;
-	border: 3px solid red;
-    padding: 50px;
-    background-color: lightgrey;
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<title>TESTER</title>
 
-}
+        <meta charset="UTF-8">
+        <meta name="description" content="A test of my skills with web development">
+        <meta name="author" content="Anthony M.E.">
+        <meta name="viewport" content="width=device-width, initial-scale1.0"
 
-#foot {
-    background-color: bisque;
-    margin: 5px;
-    border: 3px solid blue;
-    padding:5px
-}
+	</head>
+	<body>
+        <header>
+            <main>
+            <h1 class="title">Test Sum 1</h1>
+        <p class="dim">Hello. This is Anthony 
+    with a test page for 
+    HTML, CSS, and Javacript.
+        </p>
+        </header>
+        <img src="DARTHVADER.png">
+		
+        <form>
+            <select>
+                <option>Fish</option>
+                <option>Asada Tacos</option>
+                <option>Ramen</option>
+            </select>
+            <button id="button" onclick="handleClick(this)">Click me</button>
+        </form>
+    
 
-.dim {
-    background-color: aliceblue;
-    margin: 0px;
-    border: 3px solid blue;
-    padding: 5px;
-}
 
-.title {
-    background-color: aliceblue;
-    margin:10px;
-    border: 3px solid blue;
-    padding: 10px;
-}
+    <br><br><br><br>
+    <footer id="foot"><p>&copy; Code Demo or it didn't happen</p></footer>
 
-button {
-    background-color:black;
-    color: whitesmoke;
-}
+            </main>
+    
+    </body>
+
+</html>
