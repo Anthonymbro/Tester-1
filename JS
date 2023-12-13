@@ -9,10 +9,24 @@ dude("joe",24);
 dude("Frank",45);
 dude("steve",27);
 
-*/
-
 function handleClick(element){
     console.log("Test on the console.");
     element.innerHTML="Clicked"
     
 }
+
+*/
+
+let person={
+    name: "Anthony",
+    age: 32,
+    isAttractive: true,
+    sayName: function(){
+        console.log(this.name);
+    }
+
+}
+
+person.sayName();
+
+//This is a test for my method.
