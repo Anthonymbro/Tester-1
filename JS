@@ -9,24 +9,38 @@ dude("joe",24);
 dude("Frank",45);
 dude("steve",27);
 
+
+
+
 function handleClick(element){
     console.log("Test on the console.");
     element.innerHTML="Clicked"
     
 }
 
+THESE TWO ARE EXAMPLKES OF FUNCTIONS 
+AND OF CALLING FUNCTIONS
+
 */
 
-let person={
-    name: "Anthony",
-    age: 32,
-    isAttractive: true,
-    sayName: function(){
-        console.log(this.name);
+let person1={
+    name: "Spongebob",
+    age: 36,
+    isemployed: true,
+    sayHello: function(){
+        console.log("Hello, my name is Spongebob")
     }
-
 }
 
-person.sayName();
+let person2={
+    name: "Patrick Star",
+    age: 37,
+    isemployed: false,
+    sayHello: function(){
+        console.log("No! This is Patrick!")
+    }
+}
 
-//This is a test for my method.
+console.log(person1.age);
+console.log(person2.isemployed);
+
