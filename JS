@@ -29,6 +29,9 @@ let person1={
     isemployed: true,
     sayHello: function(){
         console.log("Hello, my name is Spongebob")
+    },
+    eat: function(){
+        console.log("I love to eat krabby patties.")
     }
 }
 
@@ -38,6 +41,9 @@ let person2={
     isemployed: false,
     sayHello: function(){
         console.log("No! This is Patrick!")
+    },
+    eat: function(){
+        console.log("I live to eat chili, ice cream and donuts")
     }
 }
 
@@ -46,3 +52,7 @@ console.log(person2.isemployed);
 
 person1.sayHello();
 person2.sayHello();
+
+person1.eat();
+person2.eat();
+
