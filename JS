@@ -7,21 +7,14 @@ function dude(name,age){
 
 dude("joe",24);
 dude("Frank",45);
-dude("steve",27);
 
-
-
-
-function handleClick(element){
-    console.log("Test on the console.");
-    element.innerHTML="Clicked"
     
 }
 
 THESE TWO ARE EXAMPLKES OF FUNCTIONS 
 AND OF CALLING FUNCTIONS
 
-*/
+
 
 let person1={
     name: "Spongebob",
@@ -55,4 +48,17 @@ person2.sayHello();
 
 person1.eat();
 person2.eat();
+
+*/
+
+
+
+
+
+
+
+
+
+
+
 
