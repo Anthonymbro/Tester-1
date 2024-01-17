@@ -51,6 +51,6 @@ person2.eat();
 
 */
 
-function handleClick(){
-    alert("Clicked");
+function handleClick(element){
+    element.innerHTML="Clicked"
 }
