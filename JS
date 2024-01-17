@@ -29,7 +29,7 @@ let person1={
 }
 
 let person2={
-    name: "Patrick Star",
+ ""   name: "Patrick Star",
     age: 37,
     isemployed: false,
     sayHello: function(){
@@ -51,14 +51,6 @@ person2.eat();
 
 */
 
-
-
-
-
-
-
-
-
-
-
-
+function handleClick(){
+    alert("Clicked");
+}
