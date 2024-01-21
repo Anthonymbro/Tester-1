@@ -49,19 +49,9 @@ person2.sayHello();
 person1.eat();
 person2.eat();
 
-
-
-function handleclick(element){
-    element.style="background-color: blue;"
-    element.innerHTML="Clicked"
-}
 */
-function handleclick(element) {
-    element.style.backgroundColor = "blue";
-    element.innerHTML = "Clicked";
-}
 
-let image=document.getElementById("image");
-image.addEventListener("mouseover", function(){
-    
-});
+function handleClick(element){
+    element.innerHTML="Clicked"
+    element.style="background-color:blue;"
+}
