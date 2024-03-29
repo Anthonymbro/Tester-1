@@ -4,7 +4,6 @@ function handleClick(element){
     element.innerHTML="Clicked"
     element.style="background-color:blue;"
 }
-let number=7;
 
 
-document.write(Math.max(number,4));
+document.write(Math.round(Math.random()*10));
