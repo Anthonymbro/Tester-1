@@ -7,4 +7,4 @@ function handleClick(element){
 
 let phrase="Strings are fun.";
 
-document.write(phrase.toUpperCase());
+document.write(phrase.toLowerCase());
