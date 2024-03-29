@@ -7,4 +7,4 @@ function handleClick(element){
 
 let phrase="Strings are fun.";
 
-document.write(phrase.indexOf("g"));
+document.write(phrase.substring(0,3));
