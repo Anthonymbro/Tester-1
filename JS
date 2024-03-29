@@ -1,4 +1,4 @@
-document.write("WELCOME!")
+
 
 function handleClick(element){
     element.innerHTML="Clicked"
