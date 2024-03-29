@@ -4,7 +4,7 @@ function handleClick(element){
     element.innerHTML="Clicked"
     element.style="background-color:blue;"
 }
+let number=7;
 
-let phrase="Strings are fun.";
 
-document.write(phrase.indexOf("c"), phrase.endsWith("fun."));
+document.write(number*3);
