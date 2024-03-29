@@ -7,4 +7,4 @@ function handleClick(element){
 let number=7;
 
 
-document.write(number*3);
+document.write(Math.max(number,4));
