@@ -5,4 +5,4 @@ function handleClick(element){
     element.style="background-color:blue;"
 }
 
-document.write("Strings are fun.")
+document.write("Strings are fun.");
