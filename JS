@@ -5,7 +5,6 @@ function handleClick(element){
     element.style="background-color:blue;"
 }
 
-let number=7;
+let number=-2;
 
-document.write(2*number);
-
+document.write(Math.abs(number));
