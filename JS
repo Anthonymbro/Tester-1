@@ -27,6 +27,10 @@ document.write(num1+num2);
 
 */
 
+let fruits=new Array("Apples","Oranges","Peaches");
+
+document.write(fruits);
+
 
 
 
