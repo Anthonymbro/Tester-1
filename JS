@@ -5,4 +5,7 @@ function handleClick(element){
     element.style="background-color:blue;"
 }
 
-document.write(2)
+let number=7;
+
+document.write(2*number);
+
