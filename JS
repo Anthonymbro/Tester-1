@@ -7,4 +7,4 @@ function handleClick(element){
 
 let number=-2;
 
-document.write(Math.pow(number, 3));
+document.write(Math.round(Math.random()*10));
