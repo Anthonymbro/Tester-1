@@ -7,7 +7,7 @@ function handleClick(element){
 
 let name= prompt("What is your name? ");
 
-document.write("Hey "+name+". How are you today?")
+document.write("Hey "+name+". How are you today?");
 
 
 
