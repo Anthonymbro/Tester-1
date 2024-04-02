@@ -43,6 +43,11 @@ function sayHi(appearance){
 
 sayHi("gorgeous");
 
+function addition(num1,num2){
+    document.write(num1+num2);
+}
+
+addition(5,7);
 
 
 
