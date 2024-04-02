@@ -36,12 +36,12 @@ document.write(fruits[0]);
 */
 
 
-function sayHi(){
+function sayHi(appearance){
     let name=prompt("What is your name?");
-    document.write('<h2>HELLO '+name+'!</h2>');
+    document.write('<h2>HELLO '+name+'! You are '+appearance+'</h2>');
 }
 
-sayHi();
+sayHi("gorgeous");
 
 
 
