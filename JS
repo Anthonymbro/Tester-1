@@ -12,11 +12,6 @@ document.write("Hey "+name+". How are you today? You are "+age+" years old.");
 
 
 
-
-
-
-
-
 let num1=prompt("Enter a number: ");
 let num2=prompt("Enter a another number: ");
 
@@ -27,15 +22,6 @@ document.write(num1+num2);
 
 */
 
-let fruits=["Apples","Oranges","Peaches"];
+let fruits=["Apples",24,true];
 
 document.write(fruits);
-
-
-
-
-
-
-
-
-
