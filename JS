@@ -37,7 +37,8 @@ document.write(fruits[0]);
 
 
 function sayHi(){
-    document.write('<h2>HELLO!</h2>');
+    let name=prompt("What is your name?");
+    document.write('<h2>HELLO '+name+'!</h2>');
 }
 
 sayHi();
