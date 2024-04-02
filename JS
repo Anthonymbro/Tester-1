@@ -27,7 +27,7 @@ document.write(num1+num2);
 
 let fruits=["Apples",24,true];
 
-document.write(fruits[2]);
+document.write(fruits.length);
 
 
 
