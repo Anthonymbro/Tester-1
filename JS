@@ -25,11 +25,11 @@ document.write(num1+num2);
 
 */
 
-let fruits=["Apples",24,true];
+let fruits=["Apples",24,false];
 
-fruits[2]=false;
+fruits[0]="Oranges";
 
-document.write(fruits);
+document.write(fruits[0]);
 
 
 
