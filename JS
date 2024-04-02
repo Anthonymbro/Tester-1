@@ -37,8 +37,15 @@ document.write(fruits[0]);
 
 
 function sayHi(){
-    document.write('HELLO!');
+    document.write('<h2>HELLO!</h2>');
 }
 
 sayHi();
+
+
+
+
+
+
+
 
