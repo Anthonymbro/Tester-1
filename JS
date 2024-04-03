@@ -51,6 +51,7 @@ addition(5,7);
 
 let foot=document.getElementById("foot");
 foot.style.color="blue";
+foot.style.backgroundColor="white";
 
 
 
