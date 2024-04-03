@@ -50,7 +50,7 @@ function addition(num1,num2){
 addition(5,7);
 
 let foot=document.getElementById("foot");
-
+foot.innerHTML="Overridden";
 
 
 
