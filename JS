@@ -38,10 +38,10 @@ document.write(fruits[0]);
 
 function sayHi(appearance){
     let name=prompt("What is your name?");
-    document.write('<h2>HELLO '+name+'! You are '+appearance+'</h2>');
+    document.write('<h2>Hello '+name+'! You are '+appearance+'</h2>');
 }
 
-sayHi("gorgeous");
+sayHi("gorgeous!");
 
 function addition(num1,num2){
     document.write(num1+num2);
@@ -53,6 +53,15 @@ let foot=document.getElementById("foot");
 foot.style.color="blue";
 foot.style.backgroundColor="white";
 /*Cancelled out the bisque color in the CSS file.*/
+
+
+
+        document.write("This is text from the HTML file.")
+        // This is a comment.
+
+        let phrase="Strings are cool";
+        document.write(phrase.length);
+
 
 
 
