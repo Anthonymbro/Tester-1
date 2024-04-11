@@ -60,7 +60,7 @@ foot.style.backgroundColor="white";
         // This is a comment.
 
         let phrase="Strings are cool";
-        document.write(phrase.lastIndexOf("S"));
+        document.write(phrase.substring(0,3));
 
 
 
