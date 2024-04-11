@@ -54,14 +54,8 @@ foot.style.color="blue";
 foot.style.backgroundColor="white";
 /*Cancelled out the bisque color in the CSS file.*/
 
-
-
-        document.write("This is text from the HTML file.")
-        // This is a comment.
-
-        let phrase="Strings are cool";
-        document.write(phrase.substring(0,3));
-
+phrase="Strings are cool";
+document.write(phrase.includes("Strings"));
 
 
 
