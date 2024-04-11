@@ -60,7 +60,7 @@ foot.style.backgroundColor="white";
         // This is a comment.
 
         let phrase="Strings are cool";
-        document.write(phrase.length);
+        document.write(phrase.toUpperCase());
 
 
 
