@@ -54,9 +54,6 @@ foot.style.color="blue";
 foot.style.backgroundColor="white";
 /*Cancelled out the bisque color in the CSS file.*/
 
-phrase="Strings are cool";
-document.write(phrase.includes("Strings"));
-
 
 
 
