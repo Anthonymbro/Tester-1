@@ -50,14 +50,11 @@ foot.style.color="blue";
 foot.style.backgroundColor="white";
 /*Cancelled out the bisque color in the CSS file.*/
 
+let phrase="Tester 1 is string";
+console.log(phrase.indexOf("r"));
 
-var num1=prompt("Enter a number");
-var num2=prompt("Enter another number");
 
-num1=parseFloat(num1);
-num2=parseFloat(num2);
 
-console.log(num1+num2);
 
 
 
