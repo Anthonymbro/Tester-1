@@ -50,13 +50,5 @@ foot.style.color="blue";
 foot.style.backgroundColor="white";
 /*Cancelled out the bisque color in the CSS file.*/
 
-let phrase="Tester 1 is string";
-console.log(phrase.indexOf("r"));
-
-
-
-
-
-
-
-
+let name = prompt("What is your name?");
+console.log("Hey "+name+". How are you doing today?")
