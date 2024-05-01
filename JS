@@ -50,5 +50,10 @@ foot.style.color="blue";
 foot.style.backgroundColor="white";
 /*Cancelled out the bisque color in the CSS file.*/
 
-let name = prompt("What is your name?");
-console.log("Hey "+name+". How are you doing today?")
+
+function yourname(){
+    let name = prompt("What is your name?");
+    console.log("Hey "+name+". How are you doing today?")
+}
+
+yourname();
