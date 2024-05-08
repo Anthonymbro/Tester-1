@@ -50,8 +50,12 @@ foot.style.color="blue";
 foot.style.backgroundColor="white";
 /*Cancelled out the bisque color in the CSS file.*/
 
-function sayHi(name){
-    console.log("Waddup"+name);
+function addition(num1,num2){
+    console.log(num1+num2);
 }
 
-sayHi("John");
+addition(4,5);
+
+
+
+
