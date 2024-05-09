@@ -50,11 +50,11 @@ foot.style.color="blue";
 foot.style.backgroundColor="white";
 /*Cancelled out the bisque color in the CSS file.*/
 
-function addition(num1,num2){
-    console.log(num1+num2);
+
+function handleclick(){
+    alert("Clicked");
 }
 
-addition(4,5);
 
 
 
