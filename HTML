@@ -1,59 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>TESTER</title>
+        <script src="script.js"></script>
+    </head>
 
 
-function handleClick(element){
-    element.innerHTML="Clicked"
-    element.style="background-color:blue;"
-}
-
-/* let name= prompt("What is your name? ");
-let age=prompt("How old are you?")
-
-document.write("Hey "+name+". How are you today? You are "+age+" years old.");
+    <body>
 
 
+        <header>
+            <main>
+            <h1 class="title">Test Sum 1</h1>
+        <p class="dim">Hello. This is Anthony 
+    with a test page for 
+    HTML, CSS, and Javacript.
+        </p>
+        </header>
+        
+        <form>
+            <select>
+                <option>Fish</option>
+                <option>Asada Tacos</option>
+                <option>Ramen</option>
+            </select>
+            <button>Submit</button>
+        </form>
+    
+        <br><br><br>
+        
+        
+                <img class="smiling" src="https://www.istockphoto.com/resources/images/FreePhotos/Free-Photo-700x860-1750478284.jpg" alt="two women smiling while drawing." onclick="handleClick()">
+        <form>
+            <button id="button" onclick="handleClick(this)">Click me</button>
+        </form>
+
+    <br><br><br><br>
+    <footer id="foot" onclick="alert('You clicked me.')"><p>&copy; Code Demo or it didn't happen</p></footer>
+
+
+       
 
 
 
+            </main>
+    
+    </body>
 
-let num1=prompt("Enter a number: ");
-let num2=prompt("Enter a another number: ");
-
-num1=parseFloat(num1);
-num2=parseFloat(num2);
-
-document.write(num1+num2);
-
-  
-
-
-
-
-let fruits=["Apples",24,false];
-
-fruits[0]="Oranges";
-
-document.write(fruits[0]);
-*/
-
-
-function sayHi(appearance){
-    let name=prompt("What is your name?");
-    document.write('<h2>Hello '+name+'! You are '+appearance+'</h2>');
-}
-
-sayHi("gorgeous!");
-
-function addition(num1,num2){
-    document.write(num1+num2);
-}
-
-addition(5,7);
-
-let foot=document.getElementById("foot");
-foot.style.color="blue";
-foot.style.backgroundColor="white";
-/*Cancelled out the bisque color in the CSS file.*/
-
-document.write(2-2);
-
-
+</html>
