@@ -18,3 +18,9 @@ sayHi("gorgeous!");
 let foot=document.getElementById("foot");
 foot.style.color="blue";
 foot.style.backgroundColor="white";
+
+let image=document.getElementByID("button");
+button.addEventListener("mouseover", function(){
+    this.style="box-shadow: 2px 2px 2px grey";
+    this.width=150px
+});
