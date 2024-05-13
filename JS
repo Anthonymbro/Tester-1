@@ -43,17 +43,11 @@ function sayHi(appearance){
 
 sayHi("gorgeous!");
 
-
-
 let foot=document.getElementById("foot");
 foot.style.color="blue";
 foot.style.backgroundColor="white";
 /*Cancelled out the bisque color in the CSS file.*/
 
-
-function handleclick(){
-    alert("Clicked");
-}
 
 
 //To be continued
