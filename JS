@@ -5,35 +5,7 @@ function handleClick(element){
     element.style="background-color:blue;"
 }
 
-/* let name= prompt("What is your name? ");
-let age=prompt("How old are you?")
 
-document.write("Hey "+name+". How are you today? You are "+age+" years old.");
-
-
-
-
-
-
-let num1=prompt("Enter a number: ");
-let num2=prompt("Enter a another number: ");
-
-num1=parseFloat(num1);
-num2=parseFloat(num2);
-
-document.write(num1+num2);
-
-  
-
-
-
-
-let fruits=["Apples",24,false];
-
-fruits[0]="Oranges";
-
-document.write(fruits[0]);
-*/
 
 
 function sayHi(appearance){
@@ -46,8 +18,3 @@ sayHi("gorgeous!");
 let foot=document.getElementById("foot");
 foot.style.color="blue";
 foot.style.backgroundColor="white";
-/*Cancelled out the bisque color in the CSS file.*/
-
-
-
-//To be continued
