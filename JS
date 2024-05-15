@@ -15,12 +15,10 @@ function sayHi(appearance){
 
 sayHi("gorgeous!");
 
-let foot=document.getElementById("foot");
-foot.style.color="blue";
-foot.style.backgroundColor="white";
+function avg(x,y,z){
+    return
+    (x+y+z)/3;
+}
 
-let image=document.getElementByID("button");
-button.addEventListener("mouseover", function(){
-    this.style="box-shadow: 2px 2px 2px grey";
-    this.width=150px
-});
+let res = avg(5,6,7);
+console.log(res);
