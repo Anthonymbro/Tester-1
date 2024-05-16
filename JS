@@ -17,7 +17,7 @@ sayHi("gorgeous!");
 
 function getDayName(dayNum){
     let day;
-    if(dayNum==0){
+ /*   if(dayNum==0){
         day="Sunday";
     } else if (dayNum==1){
         day="Monday";
@@ -33,6 +33,18 @@ function getDayName(dayNum){
         day="Saturday";
     }
 
+*/
+
+    switch(dayNum){
+        case 0:
+            day="Sunday";
+            break;
+        case 1:
+        day=Monday;
+
+        /*ECT*/
+
+    }
 
     return day;
 }
