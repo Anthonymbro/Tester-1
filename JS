@@ -15,16 +15,16 @@ function sayHi(appearance){
 
 sayHi("gorgeous!");
 
-let isMale=true;
-let isTall=false;
-
-if (isMale && isTall){
-    console.log("You are a tall male.");
-} else if(isMale && ! isTall){
-    console.log("You are a short male.")
-} else {
-    console.log("You are either not male or not tall or both.")
+function max(num1, num2, num3){
+    if(num1 >=num2 && num1 >=num3){
+        return num1;
+    } else if(num2<=num1 && num2<=num3){
+        return num2;
+    } else {
+        return num3;
+    }
 }
 
+console.log(max(5,2,3));
 
 
