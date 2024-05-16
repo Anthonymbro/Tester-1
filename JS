@@ -15,12 +15,14 @@ function sayHi(appearance){
 
 sayHi("gorgeous!");
 
-let things={
-    city:"Los Angeles",
-    number: 2,
-    boolean: true,
-    occupation: "null"
-};
+let person={
+    name:"Anthony",
+    age:24,
+    isMale: true,
+    occupation: "Bartender",
+    printName: function(){
+        console.log(this.name);
+    }
+}
 
-things.city="Miami";
-console.log(things.city);
+person.printName();
