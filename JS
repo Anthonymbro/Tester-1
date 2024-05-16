@@ -15,5 +15,13 @@ function sayHi(appearance){
 
 sayHi("gorgeous!");
 
+let isMale=false;
+
+if (isMale){
+    console.log("You are male");
+} else {
+    console.log("You are not male")
+}
+
 
 
