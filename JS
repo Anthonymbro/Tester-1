@@ -15,37 +15,11 @@ function sayHi(appearance){
 
 sayHi("gorgeous!");
 
-function getDayName(dayNum){
-    let day;
- /*   if(dayNum==0){
-        day="Sunday";
-    } else if (dayNum==1){
-        day="Monday";
-    } else if (dayNum==2){
-        day="Tuesday";
-    } else if (dayNum==3){
-        day="Wednesday";
-    } else if (dayNum==4){
-        day="Thursday";
-    } else if (dayNum==5){
-        day="Friday";
-    } else if (dayNum==6){
-        day="Saturday";
-    }
+let things={
+    city:"Los Angeles",
+    number: 2,
+    boolean: true,
+    occupation: "null"
+};
 
-*/
-
-    switch(dayNum){
-        case 0:
-            day="Sunday";
-            break;
-        case 1:
-        day=Monday;
-
-        /*ECT*/
-
-    }
-
-    return day;
-}
-
+console.log(things.city);
