@@ -15,16 +15,25 @@ function sayHi(appearance){
 
 sayHi("gorgeous!");
 
-function max(num1, num2, num3){
-    if(num1 >=num2 && num1 >=num3){
-        return num1;
-    } else if(num2<=num1 && num2<=num3){
-        return num2;
-    } else {
-        return num3;
+function getDayName(dayNum){
+    let day;
+    if(dayNum==0){
+        day="Sunday";
+    } else if (dayNum==1){
+        day="Monday";
+    } else if (dayNum==2){
+        day="Tuesday";
+    } else if (dayNum==3){
+        day="Wednesday";
+    } else if (dayNum==4){
+        day="Thursday";
+    } else if (dayNum==5){
+        day="Friday";
+    } else if (dayNum==6){
+        day="Saturday";
     }
+
+
+    return day;
 }
-
-console.log(max(5,2,3));
-
 
