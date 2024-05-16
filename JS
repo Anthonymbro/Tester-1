@@ -22,4 +22,5 @@ let things={
     occupation: "null"
 };
 
+things.city="Miami";
 console.log(things.city);
