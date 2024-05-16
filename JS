@@ -18,8 +18,10 @@ sayHi("gorgeous!");
 let isMale=true;
 let isTall=false;
 
-if (isMale || isTall){
+if (isMale && isTall){
     console.log("You are a tall male.");
+} else if(isMale && ! isTall){
+    console.log("You are a short male.")
 } else {
     console.log("You are either not male or not tall or both.")
 }
