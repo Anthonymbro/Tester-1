@@ -27,3 +27,4 @@ let person={
 
 person.printName();
 console.log(person.age);
+console.log(person.name)
