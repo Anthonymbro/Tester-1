@@ -23,10 +23,10 @@ body {
     height: 250px; /* Adjusted pixel value */
     width: 250px; /* Adjusted pixel value */
     border: 5px solid blue;
-    margin: 10px auto
+    margin: 10px auto; /* Center the image horizontally */
     display: block;
-    position: relative;
 }
+
 
 img:active {
     transform: rotate(-50deg);
