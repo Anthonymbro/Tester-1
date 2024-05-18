@@ -16,19 +16,10 @@ function sayHi(appearance){
 sayHi("gorgeous!");
 
 let person={
-    name:"Anthony",
-    age:24,
+    name: "Anthony",
+    age: 23,
     isMale: true,
-    occupation: "Bartender",
-    printName: function(){
-        console.log(this.name);
-    },
-    printAge: function(){
-        console.log(this.age);
-    }
-}
+    occupation:"Programmer"
+};
 
-person.printName();
-console.log(person.age);
-console.log(person.name);
-person.printAge();
+console.log(person);
