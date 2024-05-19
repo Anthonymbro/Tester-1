@@ -32,3 +32,5 @@ let myMovie={
     ]
 }
 
+console.log(myMovie.actors[0].name);
+
