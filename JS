@@ -15,22 +15,12 @@ function sayHi(appearance){
 
 sayHi("gorgeous!");
 
-var password= "wordpass";
-let response;
-let entryCount=0;
-let entryLimit=3;
-let error=false;
-
-while(response!=password && !error){
-    if(entryCount<=entryLimit)
-    response=window.prompt("Enter a password");
-    entryCount++;
-} else {
-    error=true;
+let i=0;
+while(i<10){
+    console.log(i)
+    i++;
 }
-if(error){
-    alert("Too many entries");
-} else{
 
-    alert("You got it!");
+for(let i=0; i<10; i++){
+    console.log(i)
 }
