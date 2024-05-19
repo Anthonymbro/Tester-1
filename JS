@@ -22,4 +22,6 @@ let person={
     occupation:"Programmer"
 };
 
+
+person.name="Joe"
 console.log(person.name);
