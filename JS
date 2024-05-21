@@ -20,3 +20,9 @@ while(i<10){
     console.log(i)
     i++;
 }
+
+function addition(num1,num2){
+    document.write(num+num2);
+}
+
+addition(4,5);
