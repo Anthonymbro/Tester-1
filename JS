@@ -22,7 +22,8 @@ while(i<10){
 }
 
 function addition(num1,num2){
-    document.write(num+num2);
+    document.write(num1+num2);
 }
 
+addition(4,5);
 addition(4,5);
