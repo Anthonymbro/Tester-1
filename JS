@@ -27,4 +27,4 @@ function addition(num1,num2){
 
 addition(4,5);
 addition(6,7);
-addition(4.54,3245.2345)
+addition(9,9);
