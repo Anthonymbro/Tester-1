@@ -1,6 +1,6 @@
 
 
-function handleClick(element){
+function handleClick(element){ 
     element.innerHTML="Clicked"
     element.style="background-color:blue;"
 }
