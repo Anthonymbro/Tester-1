@@ -141,9 +141,21 @@
                     <form>
                         <label>Colors:</label>
                         <select name="color">
-                            <option value="r">Red</option>
-                            <option value="b" selected>Blue</option>
-                            <option value="g">Green</option>
+                            <optgroup label="Light Colors">
+                                <option value="lr">Light Red</option>
+                                <option value="lb" selected> Light Blue</option>
+                                <option value="lg">Light Green</option>
+                            </optgroup>
+                            <optgroup label="Normal Colors">
+                                <option value="r">Red</option>
+                                <option value="b">Blue</option>
+                                <option value="g">Green</option>
+                            </optgroup>   
+                            <optgroup>   
+                                <option value="dr">Dark Red</option>
+                                <option value="db">Dark Blue</option>
+                                <option value="dg">Dark Green</option>
+                            </optgroup>
                         </select>
                     </form>
                 </article>
