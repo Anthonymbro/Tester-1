@@ -1,192 +1,36 @@
-<!DOCTYPE html>   
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="A tester website">
-        <meta name="author" content="Anthony">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Website</title>
-    </head>
-    <body>
-        <header>
-            <h1>Anthony's Website</h1>
-            <br/>
-            <nav>
-                <a href="https://www.coursera.org/">To learn: Visit Coursera</a>
-                <br>
-                <a href="https://stackoverflow.com/" target="_blank">Get coding help from the developer community</a>
-            </nav>
-            <br/>
-        </header>
-       
-        <!--The main section-->
-        <main>
-            <hr/><hr/>
-            <article>
-                <section>
-                    <a href="https://www.coursera.org/"><img height="200" style="box-shadow: 5px 5px 5px grey; border-radius: 10%;"  src="https://www.holidaysmart.com/sites/default/files/daily/2024/10-22-smart-cool-day.jpg" alt="A picture of a smart young girl"></a>
-                    <p><big>This</big> <small>is</small> my <b><i>paragraph</i></b></p>
-                </section>
+main {
+    border: 1px solid black;
+    padding: 5px;
+}
 
-                <section>
-                    <p>This is another paragraph</p>
-                    <p>H<sub>2</sub>0</p>
-                    <p>10<sup>5</sup></p>
-                </section>
+h2 {
+    text-shadow: 2px 2px 2px red;
+}
 
-                <section>
-                    <h3>Style and Color</h3>
-                    <aside>
-                        <p class="initial-test">This is an initial test for styling.</p>
-                    </aside>
-                </section>
+.initial-test {
+    color: red; 
+    background-color: blue; 
+    font-size:10px
+}
 
-                <!--Videos Section-->
-                <section>
-                    <article>
-                        <hr/>
-                        <h2>Videos Section</h2>
-                        <hr/>
-                        <video src="54c001242d6feacd7c15f63113e8f6d7.mp4" controls height="150">
-                            Your browser does not support the video tag.
-                        </video>
-                    </article>
-                </section>
-            </article>
+h1 {
+    background-color: red;
+    font-size: 35px;
+    margin: 25px;
+    border: 3px solid black;
+    padding: 20px;
+    color: CornflowerBlue;
+}
 
-            <section>
-                <article>
-                    <hr/>
-                    <h2>Lists</h2>
-                    <hr/>
-                    <h3>Fruits</h3>
-                    <ul>
-                        <li><a href="https://usapple.org/">Apples</a></li>
-                        <li><a href="https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/orange">Oranges</a></li>
-                        <li><a href="https://www.agiboo.com/coconuts/">Coconuts</a></li>
-                    </ul>
-                    <h3>Vegetables</h3>
-                    <ol>
-                        <li><a href="https://avocadosfrommexico.com/foodservice/education/">Avocado</a></li>
-                        <li><a href="https://www.britannica.com/plant/celery">Celery</a></li>
-                        <li><a href="https://www.healthline.com/nutrition/foods/spinach">Spinach</a></li>
-                    
-                    <!--Beverages section-->
-                    </ol>
-                    <h3>Beverages</h3>
-                    <dl>
-                        <dt><a href="https://www.teaclass.com/">Tea</a></dt>
-                        <dd>A soothing drink made from leaves, perfect for relaxation or energy.</dd>
+#red {
+    color: red;
+}
 
-                        <dt><a href="https://www.ncausa.org/About-Coffee">Coffee</a></dt>
-                        <dd>A rich, bold beverage to kickstart your morning.</dd>
+#sizing {
+    font-size: 2em;
+}
 
-                        <dt><a href="https://www.juiceman.com/juice-recipes">Juice</a></dt>
-                        <dd>A refreshing, nutrient-packed drink from fruits or vegetables.</dd>
-                    </dl>
-                </article>
-            </section>
-
-            <section>
-                <article>
-                    <hr/>
-                    <h2>Tables</h2>
-                    <hr/>
-                    <table>
-                        <thead>
-                            <caption><h3>List of Numbers</h3></caption>
-                            <tr>
-                                <th>Num1</th>
-                                <th>Num2</th>
-                                <th>Num3</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>One</td>
-                                <td>Two</td>
-                                <td>Three</td>
-                            </tr>
-                            <tr>
-                                <td>Four</td>
-                                <td>Five</td>
-                                <td>Six</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </article>
-            </section>
-            <section>
-                <article>
-                    <h2>Display And Floats</h2>
-                        <p>
-                            Testing to see if I can make these list items to appear next to each other.
-                            <span style="color: red;">item 1</span>
-                            <span>item 2</span>
-                            <span>item 3</span>
-                    <h3>Floats With Lists</h3>
-                        <ul style="float: left display: block; color:blue;">
-                            <li style="display:inline;">Carrot</li>
-                            <li style="display:inline;">Spinach</li>
-                            <li style="display:inline;">Broccoli</li>
-                        </ul>
-                            
-                        </p>
-                </article>
-            </section>
-            <section>
-
-<!--This is a marker for positioning testing(Static, Relative, Absolute, Fixed).
-Then I will focus on Shadows, Opacity and Border Radius.-->
-
-                <article>
-                
-
-                    <h2>Drop-Down Menus
-                    </h2>
-                    
-                    <form>
-                        <label for="m1">Colors:</label>
-                        <select name="color" id="m1">
-                            <optgroup label="Light Colors">
-                                <option value="lr">Light Red</option>
-                                <option value="lb" selected> Light Blue</option>
-                                <option value="lg">Light Green</option>
-                            </optgroup>
-                            <optgroup label="Normal Colors">
-                                <option value="r">Red</option>
-                                <option value="b">Blue</option>
-                                <option value="g">Green</option>
-                            </optgroup>   
-                            <optgroup label="Dark Colors">   
-                                <option value="dr">Dark Red</option>
-                                <option value="db">Dark Blue</option>
-                                <option value="dg">Dark Green</option>
-                            </optgroup>
-                        </select>
-                    </form>
-                </article>
-            </section>
-            
-            <section>
-            
-            <!--Texts and Fonts section-->
-                <article>
-                    <h2>Texts And Fonts</h2>
-                    <p>I can change the color to <span id=red>red.</span> I can also make this font-size larger by styling with <span id=sizing>"font-size 2em."</span> Then I can change the font in styling by doing this; <span id=fonty> "font-family: cursive". This styling makes this text in cursive font. And I've combined this cursive text with "font-variant: small-caps;" to make the words I don't capitalize capitalized but smaller than the large capitalized text. </span></p>
-                </article>
-            </section>
-            
-        </main>
-        
-        <!--footer section-->
-        <footer>
-    <p>© 2024 Anthony's Website. All rights reserved.</p>
-    <nav>
-        <a href="https://www.coursera.org/" target="_blank" rel="noopener noreferrer">Learn</a> |
-        <a href="https://stackoverflow.com/" target="_blank" rel="noopener noreferrer">Developer Help</a> |
-        <a href="#top">Back to Top</a>
-    </nav>
-</footer>
-    </body>
-</html>
+#fonty {
+    font-family: cursive;
+    font-variant: small-caps;
+}
