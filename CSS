@@ -1,4 +1,4 @@
-main {  
+main {
     border: 1px solid black;
     padding: 5px;
 }
@@ -33,4 +33,8 @@ h1 {
 #fonty {
     font-family: cursive;
     font-variant: small-caps;
+}
+
+list {
+    list-style-type: lower-roman;
 }
