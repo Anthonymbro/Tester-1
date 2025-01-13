@@ -23,6 +23,10 @@ h2, p {
     border-radius: 5px;
 }
 
+#streak p {
+    color: #676767;
+}
+
 .active-day {
     color: #00CC00;
 }
