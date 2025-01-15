@@ -47,3 +47,7 @@ list {
 a:active {
     background-color: grey;
 }
+
+a:visited {
+    color: purple;
+}
