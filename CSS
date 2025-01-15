@@ -43,3 +43,7 @@ h1:active {
 list {
     list-style-type: lower-roman;
 }
+
+a:active {
+    background-color: grey;
+}
