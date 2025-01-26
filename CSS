@@ -17,3 +17,6 @@ h2 {
     background-color: darkblue;
 }
  
+#description {
+    float: right;;
+}
