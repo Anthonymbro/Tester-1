@@ -22,6 +22,7 @@ h2 {
         
     }
     100% {
-        
+        transform: (360deg); 
+        border-radius: 50%;
     }
 }
