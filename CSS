@@ -16,6 +16,10 @@ h2 {
     color: red;
     background-color: darkblue;
 }
+
+img {
+    animation-name: spin;
+}
  
 @keyframes spin {
     0%{
