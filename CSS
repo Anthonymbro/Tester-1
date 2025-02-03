@@ -1,59 +1,56 @@
 body {
-    background-color: DarkSlateGrey;
-    font-family: arial, san-serif;
+    background-color: lightblue;
 }
 
-h2, p {
+h1 {
     text-align: center;
-    color: white;
+    color: red;
+    background-color: darkblue;
+    margin: 2px;
+    border: 3px solid black;
+    padding: 20px;
 }
 
-#profile {
+ul {
+    list-style-type: disc; /* Keeps bullet points */
+    list-style-position: inside; /* Moves bullets inside the list items */
+    display: flex; /* Aligns items in one row */
+    gap: 10px; /* Adds space between items */
+    padding: 0;
+}
+
+
+/*This is a comment as a demonstration*/
+h2 {
     text-align: center;
-    color: #FFFFFF;
-    list-style: none;
-    display: inline;
-    margin: 15px;
+    color: red;
+    background-color: darkblue;
+    border: 3px solid black;
 }
 
-#streak {
-    list-style: none;
-    padding-top: 10px;
-    display: inline;
-    margin: 5px;
-    padding: 5px;
+img {
+    animation-duration: 3s;
+    animation-name: spin;
 }
-
-#streak ul {
-    background-color: white;
-    border-radius: 5px;
-}
-
-#streak p {
-    color: #676767;
-}
-
-.active-day {
-    color: #00CC00;
-    animation-name: pulse;
-    animation-duration: 2s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    display: inline-block;
-}
-
-@keyframes pulse{
-    0% {
-        font-size: 100%;
-    }
-    50% {
-        font-size: 120%;
+ 
+@keyframes spin {
+    0%{
+        
     }
     100% {
-        font-size: 100%
+        transform: (360deg); 
+        border-radius: 50%;
     }
 }
 
-.inactive-day {
-    color: #CCCCCC;
+video {
+    border: 3px solid black;
+}
+
+table {
+    border: 3px solid black;
+}
+
+td {
+    border: 3px solid black;
 }
