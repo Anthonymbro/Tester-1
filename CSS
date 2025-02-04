@@ -4,8 +4,9 @@ body {
 
 h1 {
     text-align: center;
-    color: lightblue;
+    color: red;
     background-color: darkblue;
+    margin: 2px;
     border: 3px solid black;
     padding: 20px;
 }
@@ -22,7 +23,7 @@ ul {
 /*This is a comment as a demonstration*/
 h2 {
     text-align: center;
-    color: lightblue;
+    color: red;
     background-color: darkblue;
     border: 3px solid black;
 }
@@ -52,4 +53,10 @@ table {
 
 td {
     border: 3px solid black;
+}
+
+#opacity {
+    font-size: 30px;
+    opacity: .4;
+    text-shadow: 2px 2px 5px red;
 }
