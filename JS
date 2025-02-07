@@ -1,3 +1,9 @@
 console.log("Hello World");
 
 alert("Hola");
+
+function name(){
+    console.log("John");
+}
+
+name();
