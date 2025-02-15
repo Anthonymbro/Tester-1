@@ -1,7 +1,1 @@
-function random(){
-    let name=prompt("What is your name?");
-    console.log("Hello " +name);
-    alert("Hello "+name)
-}
 
-random();
