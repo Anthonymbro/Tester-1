@@ -1,7 +1,7 @@
 x=confirm("OK or cancel");
 
-if (x==true){
+if (x){
     alert("True");
-}     else {
-        alert("False");
-    }
+} else {
+    alert("Cancel");
+}
