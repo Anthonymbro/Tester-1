@@ -2,4 +2,6 @@ x=confirm("OK or cancel");
 
 if (x==true){
     alert("True");
-}
+}     else {
+        alert("False");
+    }
