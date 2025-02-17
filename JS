@@ -1,1 +1,1 @@
-
+confirm("OK or cancel");
