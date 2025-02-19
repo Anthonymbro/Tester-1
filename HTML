@@ -1,166 +1,95 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="This is a tester website">
-        <meta name="author" content="Anthony">
-        <meta name="keywords" content="HTML, CSS, JAVASCRIPT, TEST">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+body {
+    background-color: lightblue;
+}
 
-        <title>Anthony's Website</title>
-    </head>
-    <hr>
-    <body>
-        <header>
-            <h1>Anthony's Website</h1>
-            <nav>
-                <ul>
-                    <a href="https://www.apple.com/lae/education/k12/professional-learning/"><li>Apples</li></a>
-                    <a href="https://studentsuccess.syr.edu/orange-success/"><li>Oranges</li></a>
-                    <a href="https://unsplash.com/s/photos/banana"><li>Bananas</li></a>
-                    <a href="https://www.pexels.com/search/coconut/"><li>Coconuts</li></a>
-                </ul>
-            </nav>
-        </header>
-        <!--This is a marker for the line-->
-        <hr/>
-        <main>
-            <article>
-                <section>
-                    <p>This is a <b><i><u>testing</u></i></b> website designed for exploring and experimenting with new concepts learned online.</p>
-                    <h2>Texts</h2>
-                    <p>I can make words <big>big</big> or <small>small</small> using the "big or "small" tags and create text to hang around a letter using the "sup" or "sub" tags.</p>
-                    <p>Examples: H<sub>2</sub>0 and 10<sup>25</sup></p>
-                </section>
-                <section>
-                    <h2>Links</h2>
-                    <a href="https://www.coursera.org/" target="_blank">An educational website</a>
-                </section>
-                <section>
-                    <h2>Images</h2>
-                    <p>Click the image for a link to a website</p><a href="https://www.coursera.org/"><img src="https://spaces-wp.imgix.net/2016/06/coding-in-the-classroom.png?auto=compress,format&q=50" width=50% height="50%" alt="A person with a coding projection in a dark room"></a>
-                </section>
-                <section>
-                    <h2>Videos</h2>
-                    <h3>Videos In General</h3>
-                    <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
-                    <h3>iFrame Videos</h3>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NjahiPD445k?si=aXAm8iRj4us3oak9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </section>
-                <section>
-                    <h2>Lists</h2>
-                    <h3>Unordered Lists</h3>
-                    <ul>
-                        <li>Apples</li>
-                        <li>Oranges</li>
-                        <li>Pineapples</li>
-                    </ul>
-                    <h3>Ordered Lists</h3>
-                    <ol>
-                        <li>Coffee</li>
-                        <li>Yerba Mate</li>
-                        <li>Matcha</li>
-                    </ol>
-                    <h3>Ordered List Types-Alphabetical</h3>
-                    <ol type="A">
-                        <li>Giraffes</li>
-                        <li>Crocodiles</li>
-                        <li>Monkeys</li>
-                    </ol>
-                    <h3 id="description">Description Lists</h3>
-                        <dl>
-                            <dt>•Running</dt>
-                            <dd>-Overall healthy cardiovascular form of transportation</dd>
-                            <dt>•Shadowboxing</dt>
-                            <dd>-Do it anywhere. Work on technique</dd>
-                            <dt>•Dancing</dt>
-                            <dd>-Really fun way to socialize and build community</dd>
-                        </dl>
-                    
-                </section>
-                <section>
-                    <h2>Tables</h2>
-                    <table>
-                        <thead>
-                            <caption><h3>List of Numbers</h3></caption>
-                            <tr>
-                                <th>Num1</th>
-                                <th>Num2</th>
-                                <th>Num3</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>One</td>
-                                <td>Two</td>
-                                <td>Three</td>
-                            </tr>
-                            <tr>
-                                <td>Four</td>
-                                <td>Five</td>
-                                <td>Six</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </section>
-                <section>
-                    <h2>Divs And Spans</h2>
-                    <h3>Div</h3>
-                    <p>They separate elements into block containers</p>
-                    <h3>Span</h3>
-                    <p>They are in-line so they do not separate but they are containers still just like div tags.</p>
-                </section>
-                <section>
-                    <h2>Input And Forms</h2>
-                    <form>
-                        <input type="text" value="Enter your username"/>
-                        <input type="password" value="Enter your password"/>
-                        <input type="email" value="Enter your email" />
-                        <input type="date" />
-                        <input type="radio" name="btn" />
-                    
-                        <textarea rows="10" cols="30">
-                        
-                        </textarea>
-                    
-                        <input type="submit" />
-                    </form>
-                </section>
-                <section>
-                    <h2>iFrames Again</h2>
-                    <iframe src="https://example.com/">Instructibles</iframe>
-                </section>
-                <section>
-                    <h2>Floats</h2>
-                        <p style="float: left; background-color: purple;">This paragraph has the float attribute.</p>
-                        <p>This paragraph floats around the one with the float attribute.</p>
-                </section>
-                <section>
-                    <h2>Opacity And Shadows</h2>
-                    <p id="opacity">This text contains an opacity attribute and a shadow attribute.</p>
-                </section>
-                <section>
-                    <h2>Flexbox</h2>
-                    <div class="flex-container container">
-                        <div style="align-item: flex-start;" class="">1</div>
-                        <div class="box2 flex-item">2</div>
-                        <div class="box flex-item">3</div>
-                        <div class="box2 felx-item">4</div>
-                        <div class="box flex-item">5</div>
-                    </div>
-                </section>
-                <section>
-                    <h2>Flexbox</h2>
-                    <div class="flex-container container">
-                        <div style="align-item: flex-start; class="""></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </section>
-            </article>
-        </main>
-        <footer>
-            
-        </footer>
-    </body>
-</html>
+h1 {
+    text-align: center;
+    color: red;
+    background-color: darkblue;
+    margin: 2px;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: disc; /* Keeps bullet points */
+    list-style-position: inside; /* Moves bullets inside the list items */
+    display: flex; /* Aligns items in one row */
+    gap: 10px; /* Adds space between items */
+    padding: 0;
+}
+
+
+/*This is a comment as a demonstration*/
+h2 {
+    text-align: center;
+    color: red;
+    background-color: darkblue;
+    border: 3px solid black;
+}
+
+img {
+    animation-duration: 3s;
+    animation-name: spin;
+}
+ 
+@keyframes spin {
+    0%{
+        
+    }
+    100% {
+        transform: (360deg); 
+        border-radius: 50%;
+    }
+}
+
+video {
+    border: 3px solid black;
+}
+
+table {
+    border: 3px solid black;
+}
+
+td {
+    border: 3px solid black;
+}
+
+#opacity {
+    font-size: 30px;
+    opacity: .4;
+    text-shadow: 2px 2px 5px red;
+}
+
+/* Code for the flexbox section */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container {
+    background-color: coral;
+    border: 10px solid black;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 5px 10px 10px 5px;
+    margin: 10px 20px 20px 10px;
+    width: 120px;
+    height: 120px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.box2 {
+    background-color: lightblue;
+    padding: 5px 10px 10px 5px;
+    margin: 10px 20px 20px 10px;
+    width: 120px;
+    height: 80px;
+    box-shadow: 2px 2px 2px black;
+}
+
