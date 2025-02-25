@@ -5,3 +5,6 @@ if (age<18){
 } else {
     console.log("Regular Price");
 }
+
+//creating a comment//
+lol
