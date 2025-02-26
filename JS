@@ -1,12 +1,1 @@
-let age=18;
 
-if (age<18){
-    console.log("Discount");
-} else {
-    console.log("Regular Price");
-}
-
-//creating a comment//
-lol
-
-/*Another one*/
